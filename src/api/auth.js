@@ -1,6 +1,6 @@
 import axios from './axios'
 
-const API = 'https://backend-mu-ruddy.vercel.app/api'
+const API = 'https://backend-ezeki-dev.vercel.app/api'
 
 export const registerRequest = async (user) => axios.post(`${API}/register`, user)
 
