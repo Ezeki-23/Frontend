@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineDownload } from 'react-icons/Ai'
+import { AiOutlineDownload } from 'react-icons/ai'
 import { WritEffect } from './ui/Writter'
 import { RiInstagramLine, RiFacebookLine, RiWhatsappLine, RiGithubLine } from 'react-icons/ri'
 import curriculum from '../Curriculum.pdf'
