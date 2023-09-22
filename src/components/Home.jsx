@@ -36,7 +36,7 @@ function Home () {
               {' '}
               <RiWhatsappLine />{' '}
             </a>
-            <a href="https://github.com/Ezeki-23" className="block text-white p-4 bg-purple-600 rounded-full">
+            <a href="https://github.com/Ezeki-23?tab=repositories" className="block text-white p-4 bg-purple-600 rounded-full">
               {' '}
               <RiGithubLine />{' '}
             </a>
