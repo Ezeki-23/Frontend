@@ -2,7 +2,8 @@ import React from 'react'
 
 function Productos () {
   return (
-    <section className="text-gray-600 body-font">
+  <div className="min-h-[90vh] bg-gray-900">
+    <section className="text-gray-600 body-font bg-gray-900">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
@@ -93,6 +94,7 @@ function Productos () {
         </div>
       </div>
     </div>
+  </div>
   </div>
   </section>
   )
