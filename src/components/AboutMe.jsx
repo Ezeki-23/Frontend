@@ -52,8 +52,8 @@ function AboutMe () {
       </div>
     </section>
     <section className="text-gray-400 bg-gray-900 body-font">
-    <div className="flex flex-col text-center w-full mt-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">Mis habilidades</h1>
+    <div className="flex flex-col text-center w-full">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mt-20">Mis habilidades</h1>
     </div>
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -145,7 +145,7 @@ function AboutMe () {
     </div>
   </div>
 </section>
-    <footer className="bg-zinc-800 p-8 xl:p-20">
+    <footer className="bg-gray-900 p-8 xl:p-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
           {/* Logo */}
           <div className="w-1/6">
