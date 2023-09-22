@@ -95,8 +95,8 @@ function Productos () {
       </div>
     </div>
   </div>
-  </div>
   </section>
+  </div>
   )
 }
 
