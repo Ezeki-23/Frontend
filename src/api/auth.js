@@ -1,6 +1,6 @@
 import axios from './axios'
 
-const API = 'https://mi-back.vercel.app/api'
+const API = 'https://mi-back-serv.onrender.com/api'
 
 export const registerRequest = async (user) => axios.post(`${API}/register`, user)
 
