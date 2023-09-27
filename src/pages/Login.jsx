@@ -35,10 +35,10 @@ export function Login () {
         <h2 className="font-bold text-2xl text-[#002D74]">Login</h2>
         <p className="text-xs mt-4 text-[#002D74]">Si ya eres miembro, inicia sesión fácilmente.</p>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
-        <input className="p-2 mt-8 rounded-xl border" label='Write your email' type='email' name='email' placeholder='youremail@domain.tld' {...register('email', { required: true })} />
+        <input className="p-2 mt-8 rounded-xl border text-black" label='Write your email' type='email' name='email' placeholder='youremail@domain.tld' {...register('email', { required: true })} />
         <p>{errors.email?.message}</p>
         <div className="relative">
-        <input className="p-2 rounded-xl border w-full" type='password'
+        <input className="p-2 rounded-xl border w-full text-black" type='password'
             name='password'
             placeholder='Write your password'
             {...register('password', { required: true, minLength: 6 })} />
