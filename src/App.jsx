@@ -22,8 +22,8 @@ function App () {
               <Route path="/register" element={<Register />} />
               <Route path="/MyProject" element={<MyProject />} />
               <Route path="/aboutMe" element={<AboutMe />} />
-              <Route path="/juegos" element={<Board />} />
               <Route element={<ProtectedRoute />}>
+                <Route path="/juegos" element={<Board />} />           
               </Route>
             </Routes>
         </BrowserRouter>
