@@ -35,7 +35,7 @@ function RegisterPage () {
       <h2 className="font-bold text-2xl text-[#002D74]">Register</h2>
       <p className="text-xs mt-4 text-[#002D74]">Registrarte es rápido y fácil.</p>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
-        <input className="p-2 mt-8 rounded-xl border" type='text'
+        <input className="p-2 mt-8 rounded-xl border text-black" type='text'
             name='username'
             placeholder='Write your name'
             {...register('username')}
@@ -43,14 +43,14 @@ function RegisterPage () {
             {errors.username?.message && (
             <p className='text-red-500'>{errors.username?.message}</p>
             )}
-        <input className="p-2 rounded-xl border" name='email'
+        <input className="p-2 rounded-xl border text-black" name='email'
             placeholder='youremail@domain.tld'
             {...register('email')} />
             {errors.email?.message && (
             <p className='text-red-500'>{errors.email?.message}</p>
             )}
         <div className="relative">
-          <input className="p-2 rounded-xl border w-full" type='password'
+          <input className="p-2 rounded-xl border w-full text-black" type='password'
             name='password'
             placeholder='********'
             {...register('password')} />
@@ -63,7 +63,7 @@ function RegisterPage () {
           </svg>
         </div>
         <div className="relative">
-          <input className="p-2 rounded-xl border w-full" type='password'
+          <input className="p-2 rounded-xl border w-full text-black" type='password'
             name='confirmPassword'
             placeholder='********'
             {...register('confirmPassword')}/>
