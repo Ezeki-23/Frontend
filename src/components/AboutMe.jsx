@@ -138,21 +138,13 @@ function AboutMe () {
     </div>
   </div>
 </section>
-    <footer className="bg-gray-900 p-8 xl:p-20">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
-          {/* Logo */}
-          <div className="w-1/6">
-            <a className="text-2xl font-bold relative p-1 text-white">
-              Contáctame!
-            </a>
-          </div>
-          {/* Social media */}
-          <nav className="flex items-center gap-4">
-            <a>Ezeki-el Developer 2023
-            </a>
-          </nav>
-        </div>
-      </footer>
+   <footer className="bg-gray-900 p-8 xl:p-10">
+      <div className="mt-4">
+        <p className="text-gray-300 text-center font-medium text-xl">
+          ¡Espero tu mensaje!
+        </p>
+      </div>
+    </footer>
     </div>
   )
 };
