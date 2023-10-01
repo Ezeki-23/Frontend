@@ -6,6 +6,7 @@ import curriculum from '../Curriculum.pdf'
 
 function Home () {
   return (
+    <div>
     <section id="home" className="min-h-[90vh] grid grid-cols-1 xl:grid-cols-8 bg-gray-900">
       {/* Information */}
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16">
@@ -55,6 +56,15 @@ function Home () {
         </div>
       </div>
     </section>
+    <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-gray-900 border-b border-gray-500 pb-8"></div>
+      <footer className="bg-gray-900 p-8 xl:p-10">
+      <div className="mt-4">
+        <p className="text-gray-300 text-center">
+          © Ezekiel Dev 2023 - All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    </div>
   )
 }
 
