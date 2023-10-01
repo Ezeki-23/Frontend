@@ -1,6 +1,5 @@
 import React from 'react'
 // Icons
-import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 import { GrReactjs } from 'react-icons/gr'
 import { TbBrandVite } from 'react-icons/tb'
 import { BiLogoNodejs, BiLogoMongodb, BiLogoTailwindCss } from 'react-icons/bi'
@@ -13,17 +12,11 @@ function AboutMe () {
         ¡Te cuento un poco acerca de mí!
       </h1>
       <div className="flex justify-center gap-4">
-        <span className="text-5xl text-primary">
-          <RiDoubleQuotesL />
-        </span>
         <p className="max-w-2xl text-center text-gray-500">
           Luego de terminar la secundaria en una escuela agrotécnica ingrese a estudiar Medicina en la Facultad de Ciencias Médicas de la UNL en Santa Fe Capital en el año 2017, abandoné la carrera antes de la Pandemia del Coronavirus, a punto de pasar a tercer año. Luego me dediqué a trabajar en talleres de Chapa y Pintura desde entonces. Esa ha sido mi experiencia laboral más fuerte -mas seria- que he tenido. Antes hacia pequeños trabajos por mi cuenta cuando era estudiante...
           Desde pequeño me gustaron las computadoras. Llegué a modificar parcialmente un juego de Konami -de origen japones- basado en código binario, el juego de la saga Yugioh Power of Chaos. Creo que esa fue mi primer experiencia como programador jaja.
           Actualmente estudio por mi cuenta Programación, capacitandome para el back-end como para el front-end con JavaScript. No tengo experiencia laboral como Programador, pero sí tengo experiencia programando ¡y a esto lo considero muy importante!. Anhelo tener mi primer puesto de trabajo como programador en este fascinante mundo de la tecnología..
         </p>
-        <span className="text-5xl text-primary">
-          <RiDoubleQuotesR />
-        </span>
       </div>
       <div className="flex flex-col items-center justify-center gap-8">
         <div className="flex items-center justify-center gap-8 md:gap-12">
