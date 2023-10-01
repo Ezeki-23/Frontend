@@ -17,7 +17,7 @@ function Home () {
             Ayudo a encontrar soluciones con intuición y de acuerdo con los objetivos del cliente. Brindo mis conocimientos en el campo del Frontend tanto como el lado del Backend.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg shadow-lg shadow-gray-100/50">
+            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 mb-4 mt-4 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg shadow-lg shadow-gray-100/50">
               <AiOutlineDownload className="h-7 w-7" />
               <a href={curriculum} download="Curriculum">
               Descargar CV
