@@ -12,7 +12,7 @@ function Productos () {
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-white mb-1">Proyecto 1</h2>
             <h1 className="title-font text-lg font-medium text-white mb-3">Página para una Congregación Cristiana</h1>
-            <p className="leading-relaxed mb-3">Con esta página web estática considero que pude poner a prueba una vez más mis habilidades para el frontend. La realice con React js + Vite.</p>
+            <p className="leading-relaxed mb-3">Con esta página web estática considero que pude poner a prueba una vez más mis habilidades para el frontend con React js + Vite + Tailwind CSS además de volver a utilizar módulos npm.</p>
             <div className="flex items-center flex-wrap ">
               <a href="https://nueva-esperanza.vercel.app" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Ver proyecto
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -37,13 +37,13 @@ function Productos () {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog" />
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="proyecto_2.jpg" alt="blog" />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-white mb-1">Proyecto 2</h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">Nombre proyecto 2</h1>
-            <p className="leading-relaxed mb-3">Descripción del proyecto.</p>
+            <h1 className="title-font text-lg font-medium text-white mb-3">Página Ecommerce</h1>
+            <p className="leading-relaxed mb-3">En este proyecto reforcé mis conocimientos en frontend con React js, Vite y Tailwind CSS. Utilice librerías como axios, react-icons, react-router, etc.. Añadí un pequeño backend donde integre Checkout PRO de Mercado Pago con su SDK para Node. Asi puede el usuario realizar una compra y el vendedor recibir el pago a través del formulario de Mercado Pago. Deje muchisimos botones para seguir añadiendo funcionalidades y expandir el proyecto..</p>
             <div className="flex items-center flex-wrap">
-              <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Ver proyecto
+               <a href="https://ecommer-app.vercel.app" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Ver proyecto
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
