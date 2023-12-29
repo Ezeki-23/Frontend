@@ -69,8 +69,8 @@ function Productos () {
           <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="proyect-3.jpg" alt="proyecto 3" />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-white mb-1">Proyecto 3</h2>
-            <h1 className="title-font text-lg font-medium text-white mb-3">Ecommerce MERN Full Stack</h1>
-            <p className="leading-relaxed mb-3">Es un Ecommerce más completo e independiente del segundo. Utilicé Vite js con React js para el frontend, y Node js, Express y MongoDB para el backend. El estilador que utilicé es Tailwind CSS. Incorporé React-Redux. Todos los detalles en mi curriculum.  
+            <h1 className="title-font text-lg font-medium text-white mb-3"> Aplicación Ecommerce MERN Full Stack</h1>
+            <p className="leading-relaxed mb-3">Es un Ecommerce más completo e independiente del segundo. Utilicé Vite js con React js para el frontend, y Node js, Express y MongoDB para el backend. El estilador que utilicé es Tailwind CSS. Incorporé React-Redux. Todos los detalles en mi curriculum. Nota: Tardan unos segundos en cargar los productos.  
 </p>
             <div className="flex items-center flex-wrap ">
               <a href="https://commercomplet.vercel.app" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Ver proyecto
